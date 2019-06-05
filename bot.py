@@ -2,7 +2,7 @@ import discord, json, asyncio, requests, os
 from discord.ext.commands import Bot
 
 
-primaryCurrency = ['BTC', 'LTC']
+primaryCurrency = ['BTC', 'ARQ']
 
 altCoin = ['ACM','AEON', 'ARQ', 'BBS', 'BCN', 'BKC', 'BLOC', 'BSM', 'BTCP', 'CIV',
 'COAL', 'D', 'DASH', 'DERO', 'DOGE', 'ETH', 'ETN', 'ETNX', 'ETNXP', 'FBF', 'GPKR', 'GRFT',
