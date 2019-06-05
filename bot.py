@@ -2,7 +2,7 @@ import discord, json, asyncio, requests, os
 from discord.ext.commands import Bot
 
 
-primaryCurrency = ['BTC', 'ARQ']
+primaryCurrency = ['BTC', 'LTC']
 
 altCoin = ['ACM','AEON', 'ARQ', 'BBS', 'BCN', 'BKC', 'BLOC', 'BSM', 'BTCP', 'CIV',
 'COAL', 'D', 'DASH', 'DERO', 'DOGE', 'ETH', 'ETN', 'ETNX', 'ETNXP', 'FBF', 'GPKR', 'GRFT',
@@ -108,7 +108,7 @@ async def sateur(number, number2):
 
 @client.command()
 async def donate():
-    await client.say("To donate please use this BTC address: 3CuYbCWtKdW6PqZHHF1oJjpmeX5Ddp6SrV ")
+    await client.say("To donate please use this BTC address: 36fHYWpBTa29nVG1iZ7a9XrFhm7VgSjC4b ")
 
 @client.command()
 async def api():
